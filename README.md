@@ -58,16 +58,16 @@ The plugin is compatible with any IntelliJ based IDE starting from 2016.1.
 
 如果你不喜欢JetBrains IDE, 出门右拐搜索`JuliaPro` 或者 `Juno`.
 
-Otherwise:<br/>
-If you search GitHub with "Julia IntelliJ" (data collected at 2018/1/28 (YYYY/M/DD)),
-you'll find 4 related repositories:
+或者:<br/>
+在GitHub上搜索"Julia IntelliJ" (截止到2018/1/28),
+有4个相关的repositories:
 
 + snefru/juliafy (incomplete syntax highlight, SDK management, file recognizing, only support MacOS)
 + sysint64/intellij-julia (this only recognize your file as a `Julia file`, and do nothing else)
 + satamas/julia-plugin (ditto)
-+ ice1000/julia-intellij (too many [features](https://julia-intellij.readthedocs.io/en/latest/Features.html), can't list here)
++ ice1000/julia-intellij (超级多的 [功能特性](https://julia-intellij.readthedocs.io/en/latest/Features.html), can't list here)
 
-Now you know your choice 😉
+知道该选什么了吧 😉
 
 ## Contributing
 
