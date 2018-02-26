@@ -1,4 +1,4 @@
-# Julia plugin for the IntelliJ Platform
+# Julia plugin for the IntelliJ Platform 中文文档
 
 目前还在**开发**中，很多特性有待实现，可能会有一些小问题。
 
@@ -31,31 +31,32 @@
 </table>
 <p>
 
-## Installation \& Usage
+## 安装与使用
 
-Install IntelliJ IDEA (or other JetBrains IDEs),
-open `Settings | Plugins | Browse repositories`,
-install Julia plugin, and create a Julia project.
+安装有IntelliJ IDEA (或其他JetBrains的IDE比如`PyCharm/CLionGoLand`等),
+打开设置 `Settings | Plugins | Browse repositories`,
+安装 `Julia` 插件, 然后创建工程
 
 For detailed use instruction, visit: https://julia-intellij.readthedocs.io/en/latest/
 
-To download a nightly build (buggy!), visit https://ci.appveyor.com/project/ice1000/julia-intellij/build/artifacts/.
+想要获取最新的不稳定版本，请访问：https://ci.appveyor.com/project/ice1000/julia-intellij/build/artifacts/
 
-## Screenshots
+## 截图
 
 ![](https://plugins.jetbrains.com/files/10413/screenshot_17880.png)
 ![](https://plugins.jetbrains.com/files/10413/screenshot_17879.png)
 ![](https://plugins.jetbrains.com/files/10413/screenshot_17881.png)
 
-## Compatible IDEs
+## IDE 适用版本
 
+本插件适用范围为
 The plugin is compatible with any IntelliJ based IDE starting from 2016.1.
-If you don't have any yet, try [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/),
-it's free.
+如果你还没有，请下载[IntelliJ IDEA 社区版](https://www.jetbrains.com/idea/),
+免费哒！
 
-## Alternatives
+## 备选方案
 
-If you don't like JetBrains IDE, turn right and search `JuliaPro` or `Juno`.
+如果你不喜欢JetBrains IDE, 出门右拐搜索`JuliaPro` 或者 `Juno`.
 
 Otherwise:<br/>
 If you search GitHub with "Julia IntelliJ" (data collected at 2018/1/28 (YYYY/M/DD)),
