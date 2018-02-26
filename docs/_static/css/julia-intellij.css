@@ -3,7 +3,7 @@ td, th {
     border-collapse: collapse;
 }
 
-code{
+span .pre{
     padding: 0.2em 0.4em;
     margin: 0;
     font-size: 85%;
