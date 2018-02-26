@@ -85,7 +85,7 @@ man_pages = [
 ]
 
 def setup(app):
-    app.add_stylesheet('css/table.css')
+    app.add_stylesheet('css/julia-intellij.css')
 
 # -- Options for Texinfo output -------------------------------------------
 
