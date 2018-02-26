@@ -29,6 +29,7 @@ This is a **work in progress**, some features are implemented partially, there m
     <td><a href="https://app.codeship.com/projects/270342"><img src="https://app.codeship.com/projects/4c89a940-ec81-0135-9688-6eaa099eb415/status?branch=master" alt="CodeShip Build status"></a></td>
   </tr>
 </table>
+<p>
 
 ## Installation \& Usage
 
