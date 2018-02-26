@@ -1,6 +1,6 @@
 # Julia plugin for the IntelliJ Platform
 
-This is a **work in progress**, some features are implemented partially, there may be performance and stability problems.
+目前还在**开发**中，很多特性有待实现，可能会有一些小问题。
 
 [![](https://tinyurl.com/y9e4n2zh)](https://github.com/ice1000/julia-intellij)
 [![JetBrains plugins](https://img.shields.io/jetbrains/plugin/v/10413-julia.svg)](https://plugins.jetbrains.com/plugin/10413-julia)
