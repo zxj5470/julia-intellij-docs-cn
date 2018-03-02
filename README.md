@@ -39,13 +39,14 @@
 
 For detailed use instruction, visit: https://julia-intellij.readthedocs.io/en/latest/
 
-想要获取最新的不稳定版本，请访问：https://ci.appveyor.com/project/ice1000/julia-intellij/build/artifacts/
+想要提前获取新的版本，请访问：https://ci.appveyor.com/project/ice1000/julia-intellij/build/artifacts/
 
 ## 截图
 
 ![](https://plugins.jetbrains.com/files/10413/screenshot_17880.png)
 ![](https://plugins.jetbrains.com/files/10413/screenshot_17879.png)
 ![](https://plugins.jetbrains.com/files/10413/screenshot_17881.png)
+![](https://github.com/zxj5470/julia-intellij-docs-cn/blob/master/screenshots/pkg-manager.gif?raw=true)
 
 ## IDE 适用版本
 

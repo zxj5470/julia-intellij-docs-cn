@@ -1,5 +1,5 @@
-# Julia IDE Documentation
+# Julia IDE 文档
 
-https://julia-intellij.readthedocs.io/en/latest/
+https://julia-intellij.readthedocs.io/zh/latest/
 
-↑↑↑ Go and read ↑↑↑
+↑↑↑ 看中文文档 ↑↑↑
