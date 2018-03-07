@@ -72,9 +72,8 @@ The plugin is compatible with any IntelliJ based IDE starting from 2016.1.
 
 ## Contributing
 
-You're encouraged to contribute to the plugin in any form if you've found any issues or missing functionality that you'd want to see.
-Check out [CONTRIBUTING.md](./CONTRIBUTING.md) to learn how to setup the project and contributing guidelines.
-
+如果你想做点什么事情而且issues里面或者功能缺失的话。
+看看[CONTRIBUTING.md](./CONTRIBUTING.md)的内容，里面有如何建立工程和开发指南。
 ## Contributors
 
 + [@ice1000](https://github.com/ice1000)
