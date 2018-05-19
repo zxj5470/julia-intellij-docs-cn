@@ -42,11 +42,14 @@ For detailed use instruction, visit: https://julia-intellij.readthedocs.io/en/la
 想要提前获取新的版本，请访问：https://ci.appveyor.com/project/ice1000/julia-intellij/build/artifacts/
 
 ### Windows 路径
-Julia 的默认安装位置在 `用户文件夹/AppData/julia-0.*` 下。初次使用请选择该路径下 `bin` 目录中的 `julia.exe`。
+Julia 的默认安装位置在 `C:\Users\用户名\AppData\Local\Julia-*` 下（如果你没有手动改过的话……）
+初次使用请选择这个文件夹下 `bin` 目录中的 `julia.exe`。
+
 ### Linux 
+手动设置目录啦。都用Linux了<del>默认你们什么都会，</del>根本没什么难度。如果设置了path有可能可以直接搜索到。（
 
 ### MacOS
-Mac默认安装位置为/Application/
+Mac 默认安装位置为 `/Application/julia-*`
 
 ## 截图
 
