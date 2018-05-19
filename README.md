@@ -41,6 +41,13 @@ For detailed use instruction, visit: https://julia-intellij.readthedocs.io/en/la
 
 想要提前获取新的版本，请访问：https://ci.appveyor.com/project/ice1000/julia-intellij/build/artifacts/
 
+### Windows 路径
+Julia 的默认安装位置在 `用户文件夹/AppData/julia-0.*` 下。初次使用请选择该路径下 `bin` 目录中的 `julia.exe`。
+### Linux 
+
+### MacOS
+Mac默认安装位置为/Application/
+
 ## 截图
 
 ![](https://plugins.jetbrains.com/files/10413/screenshot_17880.png)
@@ -50,14 +57,13 @@ For detailed use instruction, visit: https://julia-intellij.readthedocs.io/en/la
 
 ## IDE 适用版本
 
-本插件适用范围为
+本插件适用范围为基于IntelliJ平台的 IDE (PyCharm/CLion/PhpStorm等。版本号大于2016.1)
 The plugin is compatible with any IntelliJ based IDE starting from 2016.1.
-如果你还没有，请下载[IntelliJ IDEA 社区版](https://www.jetbrains.com/idea/),
-免费哒！
+如果还没有相关 IDE ，请下载[IntelliJ IDEA 社区版](https://www.jetbrains.com/idea/), 这玩意免费哒！
 
 ## 备选方案
 
-如果你不喜欢JetBrains IDE, 出门右拐搜索`JuliaPro` 或者 `Juno`.
+如果你不喜欢 JetBrains 家的 IDE, 出门右拐搜索 `JuliaPro` 或者 `Juno`.
 
 或者:<br/>
 在GitHub上搜索"Julia IntelliJ" (截止到2018/1/28),
