@@ -12,6 +12,7 @@ import shutil
 shutil.copy2("../CONTRIBUTING.md", ".")
 shutil.copy2("../README.md", "MainPage.md")
 shutil.copy2("../description.html", "Features.md")
+shutil.copy2("../DEBUGGER.md", "Debugger.md")
 
 extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.intersphinx',
