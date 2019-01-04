@@ -37,31 +37,36 @@
 打开设置 `Settings | Plugins | Browse repositories`,
 安装 `Julia` 插件, 然后创建工程
 
-For detailed use instruction, visit: https://julia-intellij.readthedocs.io/en/latest/
 
-想要提前获取新的版本，请访问：https://ci.appveyor.com/project/ice1000/julia-intellij/build/artifacts/
+想要提前获取新的版本，请访问：[https://ci.appveyor.com/project/ice1000/julia-intellij/build/artifacts/](https://ci.appveyor.com/project/ice1000/julia-intellij/build/artifacts/)
+想要了解 test 运行的情况，请访问 [https://circleci.com/build-insights/gh/ice1000/julia-intellij/master](https://circleci.com/build-insights/gh/ice1000/julia-intellij/master) .
 
-### Windows 路径
-Julia 的默认安装位置在 `C:\Users\用户名\AppData\Local\Julia-*` 下（如果你没有手动改过的话……）
-初次使用请选择这个文件夹下 `bin` 目录中的 `julia.exe`。
+### 视频介绍
 
-### Linux 
-手动设置目录啦。都用Linux了<del>默认你们什么都会，</del>根本没什么难度。如果设置了path有可能可以直接搜索到。（
++ YouTube上的英文介绍 : [https://www.youtube.com/watch?v=gjRhvPBiasU](https://www.youtube.com/watch?v=gjRhvPBiasU)
++ B站上的中文介绍: [https://www.bilibili.com/video/av20155813](https://www.bilibili.com/video/av20155813)
 
-### MacOS
-Mac 默认安装位置为 `/Application/julia-*`
-
-## 截图
+## 截图 
 
 ![](https://plugins.jetbrains.com/files/10413/screenshot_17880.png)
 ![](https://plugins.jetbrains.com/files/10413/screenshot_17879.png)
 ![](https://plugins.jetbrains.com/files/10413/screenshot_17881.png)
+![](https://plugins.jetbrains.com/files/10413/screenshot_17891.png)
+![](https://plugins.jetbrains.com/files/10413/screenshot_17932.png)
 ![](https://github.com/zxj5470/julia-intellij-docs-cn/blob/master/screenshots/pkg-manager.gif?raw=true)
+### 绘图
+![](https://user-images.githubusercontent.com/20026798/49950430-c72f1780-ff32-11e8-8498-68ebcad8c4b5.gif)
+
+### 数据 (工作区)
+![](https://user-images.githubusercontent.com/20026798/50019689-91f7f780-000e-11e9-85ce-ab602cab6505.png)
+
+### 调试器
+> 基于 DebuggerFramework 和 ASTInterpreter2
+![](https://user-images.githubusercontent.com/20026798/50418049-670a7080-0864-11e9-96cf-d0ebc5b26431.gif)
 
 ## IDE 适用版本
 
 本插件适用范围为基于IntelliJ平台的 IDE (PyCharm/CLion/PhpStorm等。版本号大于2016.1)
-The plugin is compatible with any IntelliJ based IDE starting from 2016.1.
 如果还没有相关 IDE ，请下载[IntelliJ IDEA 社区版](https://www.jetbrains.com/idea/), 这玩意免费哒！
 
 ## 备选方案
@@ -80,9 +85,9 @@ The plugin is compatible with any IntelliJ based IDE starting from 2016.1.
 知道该选什么了吧 😉
 
 ## Contributing
+如果你已经找遍了issues里面的内容还是缺少你想要的功能的话，
+欢迎翻阅[CONTRIBUTING.md](./CONTRIBUTING.md)的内容，里面有如何建立工程和开发指南。
 
-如果你想做点什么事情而且issues里面或者功能缺失的话。
-看看[CONTRIBUTING.md](./CONTRIBUTING.md)的内容，里面有如何建立工程和开发指南。
 ## Contributors
 
 + [@ice1000](https://github.com/ice1000)

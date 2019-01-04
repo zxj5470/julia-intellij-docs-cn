@@ -1,24 +1,23 @@
-# How to build
+# 如何构建
 
-## Use gradle
+## 使用 gradle
 
 ```bash
 $ chmod a+x gradlew
 $ ./gradlew buildPlugin
 ```
 
-It's not recommended to use gradle because it will
-include unnecessary dependencies and it's slow.
+不过不是很推荐使用 gradle 因为这可能会出现一些无关紧要的依赖项而且很慢。
 
-## Use Idea build
+## 使用 Idea 构建
 
 ### Prerequirements
 
-First install required plugins in your IntelliJ IDEA:
+首先在 IntelliJ IDEA 安装插件:
 
 + Grammar-Kit [![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/6606-grammar-kit.svg)](https://plugins.jetbrains.com/plugin/6606-grammar-kit)
-+ UI Designer (built-in, just make sure you've enabled it)
-+ Plugin DevKit (built-in, just make sure you've enabled it)
++ UI Designer (内置，确保已启用)
++ Plugin DevKit (内置，确保已启用)
 + Kotlin [![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/6954-kotlin.svg)](https://plugins.jetbrains.com/plugin/6954-kotlin)
 
 I've compiled a Grammar-Kit which supports completing Java codes in the jflex code fragment which can be found
@@ -26,19 +25,18 @@ I've compiled a Grammar-Kit which supports completing Java codes in the jflex co
 
 For debugging purpose, it's recommended to install a plugin called PsiViewer [![JetBrains Plugins](https://plugins.jetbrains.com/plugin/227-psiviewer)](https://plugins.jetbrains.com/plugin/227-psiviewer).
 
-### Build
+### 构建
 
-Clone this repo:
+Clone 这个仓库:
 
 ```shell
 $ git clone https://github.com/ice1000/julia-intellij.git
 ```
 
-Create a plugin project from your cloned source, and use Grammar-Kit
-to generate the Parser and Lexer.
+从克隆的代码中创建仓库，使用 Grammar-Kit 来生成 Parser 和 Lexer.
 
 Then, click `File | Settings | Build, Execution, Deployment | Compiler | Kotlin Compiler`,
-make sure "Target Kotlin version" is "1.8".
+确保 "Target Kotlin version" 是 "1.8".
 
 Then, click `Build | Prepare Plugin Module 'julia-intellij' for deployment`, and you'll see a jar
 appears at the project root.
